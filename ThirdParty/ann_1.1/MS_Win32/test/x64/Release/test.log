@@ -1,0 +1,28 @@
+﻿Build started 4/6/2016 5:58:56 PM.
+     1>Project "C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\test\test.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D PREP /D WIN32 /D _CONSOLE /D ANN_NO_RANDOM /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /errorReport:prompt ..\..\test\ann_test.cpp ..\..\test\rand.cpp
+         ann_test.cpp
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\include\ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+     1>..\..\test\ann_test.cpp(1044): warning C4244: 'argument' : conversion from 'double' to 'ANNdist', possible loss of data
+     1>..\..\test\ann_test.cpp(1375): warning C4244: 'initializing' : conversion from 'double' to 'ANNdist', possible loss of data
+     1>..\..\test\ann_test.cpp(1376): warning C4244: 'initializing' : conversion from 'double' to 'ANNdist', possible loss of data
+         rand.cpp
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\include\ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+     1>..\..\test\rand.cpp(450): warning C4244: '=' : conversion from 'const double' to 'ANNcoord', possible loss of data
+     1>..\..\test\rand.cpp(454): warning C4244: '=' : conversion from 'double' to 'ANNcoord', possible loss of data
+     1>..\..\test\rand.cpp(568): warning C4244: '=' : conversion from 'double' to 'ANNcoord', possible loss of data
+     1>..\..\test\rand.cpp(572): warning C4244: '=' : conversion from 'double' to 'ANNcoord', possible loss of data
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\x64\Release\test.exe) does not match the Linker's OutputFile property value (C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\bin\ann_test.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(test) does not match the Linker's OutputFile property value (ann_test). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\ann_test.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /PDB:".\Release/test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\x64\Release\test.lib" /MACHINE:X64 .\Release/ann_test.obj
+         .\Release/rand.obj
+         C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\dll\Release\ANN.lib
+         test.vcxproj -> C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\x64\Release\test.exe
+     1>Done Building Project "C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\test\test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47

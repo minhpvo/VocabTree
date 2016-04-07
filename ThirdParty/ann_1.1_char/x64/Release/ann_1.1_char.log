@@ -1,0 +1,45 @@
+﻿Build started 4/6/2016 5:59:33 PM.
+     1>Project "C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\ann_1.1_char.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /O2 /GL /D WIN32 /D NDEBUG /D _LIB /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D ANN_PERF /D ANN_NO_RANDOM /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt src\ANN.cpp src\bd_fix_rad_search.cpp src\bd_pr_search.cpp src\bd_search.cpp src\bd_tree.cpp src\brute.cpp src\kd_dump.cpp src\kd_fix_rad_search.cpp src\kd_pr_search.cpp src\kd_search.cpp src\kd_split.cpp src\kd_tree.cpp src\kd_util.cpp src\perf.cpp
+         ANN.cpp
+         bd_fix_rad_search.cpp
+         bd_pr_search.cpp
+         bd_search.cpp
+         bd_tree.cpp
+         brute.cpp
+         kd_dump.cpp
+         kd_fix_rad_search.cpp
+         kd_pr_search.cpp
+         kd_search.cpp
+         kd_split.cpp
+     1>src\kd_split.cpp(289): warning C4244: 'initializing' : conversion from 'const double' to 'ann_1_1_char::ANNcoord', possible loss of data
+     1>src\kd_split.cpp(395): warning C4244: 'initializing' : conversion from 'const double' to 'ann_1_1_char::ANNcoord', possible loss of data
+         kd_tree.cpp
+         kd_util.cpp
+     1>src\kd_util.cpp(276): warning C4244: '=' : conversion from 'double' to 'ann_1_1_char::ANNcoord', possible loss of data
+         perf.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\x64\Release\ANN_char.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\x64\Release\ANN_char.pdb" /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\x64\Release\ANN_char.lib" /MACHINE:X64 /DLL x64\Release\ANN.obj
+         x64\Release\bd_fix_rad_search.obj
+         x64\Release\bd_pr_search.obj
+         x64\Release\bd_search.obj
+         x64\Release\bd_tree.obj
+         x64\Release\brute.obj
+         x64\Release\kd_dump.obj
+         x64\Release\kd_fix_rad_search.obj
+         x64\Release\kd_pr_search.obj
+         x64\Release\kd_search.obj
+         x64\Release\kd_split.obj
+         x64\Release\kd_tree.obj
+         x64\Release\kd_util.obj
+         x64\Release\perf.obj
+            Creating library C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\x64\Release\ANN_char.lib and object C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\x64\Release\ANN_char.exp
+         Generating code
+         Finished generating code
+         ann_1.1_char.vcxproj -> C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\x64\Release\ANN_char.dll
+     1>Done Building Project "C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\ann_1.1_char.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.99

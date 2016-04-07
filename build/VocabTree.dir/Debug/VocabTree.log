@@ -1,0 +1,99 @@
+﻿Build started 4/6/2016 5:59:58 PM.
+     1>Project "C:\Users\mvo\Documents\GitHub\VocabTree\build\VocabTree.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/mvo/Documents/GitHub/VocabTree/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\mvo\Documents\GitHub\VocabTree\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\include /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"VocabTree.dir\Debug\\" /Fd"VocabTree.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp C:\Users\mvo\Documents\GitHub\VocabTree\keys2.cpp C:\Users\mvo\Documents\GitHub\VocabTree\kmeans.cpp C:\Users\mvo\Documents\GitHub\VocabTree\kmeans_kd.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabFlatNode.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeBuild.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeUtil.cpp
+         main.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(177): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(212): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(220): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(245): warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(283): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(381): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(401): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(415): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(431): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(607): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(644): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(655): warning C4244: 'argument' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(656): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(677): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(652): warning C4101: 'id2' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(652): warning C4101: 'id1' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(695): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(706): warning C4244: 'argument' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(707): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(719): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(703): warning C4101: 'id2' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(703): warning C4101: 'id1' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(747): warning C4129: ' ' : unrecognized character escape sequence
+         keys2.cpp
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\keys2.cpp(175): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         kmeans.cpp
+         kmeans_kd.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\kmeans_kd.cpp(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\kmeans_kd.cpp(68): warning C4244: '=' : conversion from 'double' to 'ANNcoord', possible loss of data
+         VocabFlatNode.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+         VocabTree.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp(188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp(216): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp(316): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         VocabTreeBuild.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+         VocabTreeIO.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp(234): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp(280): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp(302): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp(325): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp(357): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp(371): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         VocabTreeUtil.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\include /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"VocabTree.dir\Debug\\" /Fd"VocabTree.dir\Debug\vc120.pdb" /Gd /TC /errorReport:prompt C:\Users\mvo\Documents\GitHub\VocabTree\qsort.c C:\Users\mvo\Documents\GitHub\VocabTree\util.c
+         qsort.c
+         util.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mvo\Documents\GitHub\VocabTree\build\Debug\VocabTree.exe" /INCREMENTAL /NOLOGO /LIBPATH:ThirdParty/ann_1.1/MS_Win32/dll/Release /LIBPATH:ThirdParty/ann_1.1/MS_Win32/dll/Release/Debug /LIBPATH:ThirdParty/ann_1.1_char/MS_Win32/dll/Release /LIBPATH:ThirdParty/ann_1.1_char/MS_Win32/dll/Release/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ../ThirdParty/ann_1.1/MS_Win32/dll/Release/ANN.lib ../ThirdParty/ann_1.1_char/x64/Release/ANN_char.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/mvo/Documents/GitHub/VocabTree/build/Debug/VocabTree.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/mvo/Documents/GitHub/VocabTree/build/Debug/VocabTree.lib" /MACHINE:X64  /machine:x64 VocabTree.dir\Debug\main.obj
+         VocabTree.dir\Debug\keys2.obj
+         VocabTree.dir\Debug\kmeans.obj
+         VocabTree.dir\Debug\kmeans_kd.obj
+         VocabTree.dir\Debug\VocabFlatNode.obj
+         VocabTree.dir\Debug\VocabTree.obj
+         VocabTree.dir\Debug\VocabTreeBuild.obj
+         VocabTree.dir\Debug\VocabTreeIO.obj
+         VocabTree.dir\Debug\VocabTreeUtil.obj
+         VocabTree.dir\Debug\qsort.obj
+         VocabTree.dir\Debug\util.obj
+         VocabTree.vcxproj -> C:\Users\mvo\Documents\GitHub\VocabTree\build\Debug\VocabTree.exe
+     1>Done Building Project "C:\Users\mvo\Documents\GitHub\VocabTree\build\VocabTree.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.52

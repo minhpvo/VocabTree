@@ -1,0 +1,58 @@
+﻿Build started 4/6/2016 6:00:49 PM.
+     1>Project "C:\Users\mvo\Documents\GitHub\VocabTree\build\VocabTree.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\include /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\include /nologo /W3 /WX- /MP /O2 /Ob2 /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /Qpar /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"VocabTree.dir\Release\\" /Fd"VocabTree.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp C:\Users\mvo\Documents\GitHub\VocabTree\keys2.cpp C:\Users\mvo\Documents\GitHub\VocabTree\kmeans.cpp C:\Users\mvo\Documents\GitHub\VocabTree\kmeans_kd.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabFlatNode.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeBuild.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeUtil.cpp
+         main.cpp
+         keys2.cpp
+         kmeans.cpp
+         kmeans_kd.cpp
+         VocabFlatNode.cpp
+         VocabTree.cpp
+         VocabTreeBuild.cpp
+         VocabTreeIO.cpp
+         VocabTreeUtil.cpp
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data (C:\Users\mvo\Documents\GitHub\VocabTree\kmeans_kd.cpp)
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\kmeans_kd.cpp(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\kmeans_kd.cpp(68): warning C4244: '=' : conversion from 'double' to 'ANNcoord', possible loss of data
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data (C:\Users\mvo\Documents\GitHub\VocabTree\VocabFlatNode.cpp)
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data (C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp)
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data (C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeBuild.cpp)
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data (C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp)
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp(188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp(216): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTree.cpp(316): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeIO.cpp(371): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\keys2.cpp(175): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data (C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp)
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(212): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(220): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(245): warning C4244: '=' : conversion from 'short' to 'unsigned char', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(655): warning C4244: 'argument' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(652): warning C4101: 'id2' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(652): warning C4101: 'id1' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(706): warning C4244: 'argument' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(703): warning C4101: 'id2' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(703): warning C4101: 'id1' : unreferenced local variable
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\main.cpp(747): warning C4129: ' ' : unrecognized character escape sequence
+     1>c:\users\mvo\documents\github\vocabtree\ThirdParty/ann_1.1/include/ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data (C:\Users\mvo\Documents\GitHub\VocabTree\VocabTreeUtil.cpp)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\include /IC:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1_char\include /nologo /W3 /WX- /MP /O2 /Ob2 /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /Qpar /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"VocabTree.dir\Release\\" /Fd"VocabTree.dir\Release\vc120.pdb" /Gd /TC /errorReport:prompt C:\Users\mvo\Documents\GitHub\VocabTree\qsort.c C:\Users\mvo\Documents\GitHub\VocabTree\util.c
+         qsort.c
+         util.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mvo\Documents\GitHub\VocabTree\build\Release\VocabTree.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:ThirdParty/ann_1.1/MS_Win32/dll/Release /LIBPATH:ThirdParty/ann_1.1/MS_Win32/dll/Release/Release /LIBPATH:ThirdParty/ann_1.1_char/MS_Win32/dll/Release /LIBPATH:ThirdParty/ann_1.1_char/MS_Win32/dll/Release/Release kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ../ThirdParty/ann_1.1/MS_Win32/dll/Release/ANN.lib ../ThirdParty/ann_1.1_char/x64/Release/ANN_char.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/mvo/Documents/GitHub/VocabTree/build/Release/VocabTree.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/mvo/Documents/GitHub/VocabTree/build/Release/VocabTree.lib" /MACHINE:X64  /machine:x64 VocabTree.dir\Release\main.obj
+         VocabTree.dir\Release\keys2.obj
+         VocabTree.dir\Release\kmeans.obj
+         VocabTree.dir\Release\kmeans_kd.obj
+         VocabTree.dir\Release\VocabFlatNode.obj
+         VocabTree.dir\Release\VocabTree.obj
+         VocabTree.dir\Release\VocabTreeBuild.obj
+         VocabTree.dir\Release\VocabTreeIO.obj
+         VocabTree.dir\Release\VocabTreeUtil.obj
+         VocabTree.dir\Release\qsort.obj
+         VocabTree.dir\Release\util.obj
+         VocabTree.vcxproj -> C:\Users\mvo\Documents\GitHub\VocabTree\build\Release\VocabTree.exe
+     1>Done Building Project "C:\Users\mvo\Documents\GitHub\VocabTree\build\VocabTree.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.44

@@ -1,0 +1,16 @@
+﻿Build started 4/6/2016 5:58:56 PM.
+     1>Project "C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\ann2fig\ann2fig.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\ann2fig\ann2fig.cpp
+         ann2fig.cpp
+     1>C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\include\ANN/ANN.h(200): warning C4244: 'initializing' : conversion from 'const double' to 'const ANNdist', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\x64\Release\ann2fig.exe) does not match the Linker's OutputFile property value (C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\bin\ann2fig.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\ann2fig.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\x64\Release\ann2fig.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\x64\Release\ann2fig.lib" /MACHINE:X64 x64\Release\ann2fig.obj
+         C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\dll\Release\ANN.lib
+         ann2fig.vcxproj -> C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\x64\Release\ann2fig.exe
+     1>Done Building Project "C:\Users\mvo\Documents\GitHub\VocabTree\ThirdParty\ann_1.1\MS_Win32\ann2fig\ann2fig.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.51

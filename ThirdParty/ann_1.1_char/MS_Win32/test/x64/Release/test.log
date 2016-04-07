@@ -1,0 +1,20 @@
+﻿Build started 4/5/2016 4:46:33 AM.
+     1>Project "C:\Research\OpenSoft\VocabTree2\lib\ann_1.1_char\MS_Win32\test\test.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D PREP /D WIN32 /D _CONSOLE /D ANN_NO_RANDOM /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /errorReport:prompt ..\..\test\rand.cpp
+         rand.cpp
+     1>..\..\test\rand.cpp(451): warning C4244: '=' : conversion from 'const double' to 'ann_1_1_char::ANNcoord', possible loss of data
+     1>..\..\test\rand.cpp(455): warning C4244: '=' : conversion from 'double' to 'ann_1_1_char::ANNcoord', possible loss of data
+     1>..\..\test\rand.cpp(464): error C2665: 'genOrthFlat' : none of the 2 overloads could convert all the argument types
+                 ..\..\test\rand.cpp(411): could be 'void genOrthFlat(ann_1_1_char::ANNpointArray,int,int,float *,double)'
+                 ..\..\test\rand.cpp(394): or       'void genOrthFlat(ann_1_1_char::ANNpointArray,int,int,double *,double)'
+                 while trying to match the argument list '(ann_1_1_char::ANNpointArray, int, int, ann_1_1_char::ANNpoint, double)'
+     1>..\..\test\rand.cpp(557): warning C4244: '=' : conversion from 'double' to 'ann_1_1_char::ANNcoord', possible loss of data
+     1>..\..\test\rand.cpp(561): warning C4244: '=' : conversion from 'double' to 'ann_1_1_char::ANNcoord', possible loss of data
+     1>..\..\test\rand.cpp(571): error C2664: 'void genGauss(ann_1_1_char::ANNpointArray,int,int,double *,double *)' : cannot convert argument 4 from 'ann_1_1_char::ANNpoint' to 'double *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "C:\Research\OpenSoft\VocabTree2\lib\ann_1.1_char\MS_Win32\test\test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.28
